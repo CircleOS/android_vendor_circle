@@ -165,7 +165,12 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NetworkStackOverlay
 
+$(call inherit-product, vendor/circle/config/bootanimation.mk)
+
 $(call inherit-product, vendor/circle/config/version.mk)
+
+# Import flipendo/turbo_adapter sepolicy
+$(call inherit-product, vendor/circle/config/sepolicy.mk)
 
 # Inherit from GMS product config
 $(call inherit-product, vendor/gms/gms_full.mk)
