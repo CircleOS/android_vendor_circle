@@ -7,3 +7,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     FontDMSansOverlay \
+    FontOpenSansOverlay \

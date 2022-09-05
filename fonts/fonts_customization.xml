@@ -9,4 +9,15 @@
     </family>
     <alias name="dmsans-medium" to="dmsans" weight="500" />
     <alias name="dmsans-bold" to="dmsans" weight="700" />
+
+    <family customizationType="new-named-family" name="opensans">
+    <font weight="400" style="normal">OpenSans-Regular.ttf</font>
+    <font weight="400" style="italic">OpenSans-Italic.ttf</font>
+    <font weight="500" style="normal">OpenSans-Medium.ttf</font>
+    <font weight="500" style="italic">OpenSans-MediumItalic.ttf</font>
+    <font weight="700" style="normal">OpenSans-Bold.ttf</font>
+    <font weight="700" style="italic">OpenSans-BoldItalic.ttf</font>
+  </family>
+  <alias name="opensans-medium" to="opensans" weight="500" />
+  <alias name="opensans-bold" to="opensans" weight="700" />
 </fonts-modification>
